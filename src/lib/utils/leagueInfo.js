@@ -25,8 +25,8 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID": "1253772062900621312"
-      "name": "David Oliverio",
+      "managerID": "1253772062900621312",
+      "name": "Dave Oliverio",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Bethlehem, PA", // (optional)
       "bio": "Drafted on vibes, fueled by snacks, and somehow still winning. Fantasy genius? Maybe. Lucky? Absolutely. Trash talker? Always.",
@@ -49,7 +49,7 @@ export const managers = [
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Jeff Cohn",
-      "managerID": "76521957268799488"
+      "managerID": "76521957268799488",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Palm Harbor, FL", // (optional)
       "bio": "Heat, hustle, and havoc — Westlake Warriors bring the smack talk",
