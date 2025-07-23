@@ -3,11 +3,11 @@ export const leagueID = "1253040502786228224"; // your league ID
 export const leagueName = "Irving Champions League"; // your league name
 export const dues = 100; // (optional) used in template constitution page
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
-export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
+export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Welcome to the future..</p>
+  <p>Welcome to the future.</p>
   <p>Introducing the Irving Champions League.</p>
   <p>The Irving Champions League is more than fantasy football—it’s a legacy reborn. Born from the grit and glory of the original Irving League, this rebooted battleground celebrates fierce dedication, unmatched determination, and weekly engagement that borders on obsession. Owners obsess over waiver wires, analyze matchups like coaches, and rally with renewed energy each season. Every point scored and trade debated fuels rivalries and friendships alike. It’s where underdogs rise, champions grind, and every Sunday feels like destiny. Rejuvenated and relentless, the Irving Champions League isn’t just about football—it’s about proving who truly rules the gridiron. Welcome back to greatness.</p>
   
