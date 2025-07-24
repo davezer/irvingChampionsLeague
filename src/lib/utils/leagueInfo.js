@@ -69,6 +69,7 @@ export const managers = [
       "tradingScale": 8, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
+  {
     "name": "Jamie Cohn",
       "managerID": "1253515645044133888",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -90,6 +91,7 @@ export const managers = [
       "philosophy": "Playoffs? PLAYOFFS?!",
       "tradingScale": 8, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      },
   ]
   
   
