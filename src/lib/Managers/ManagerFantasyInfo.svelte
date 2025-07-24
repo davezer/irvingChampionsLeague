@@ -208,20 +208,34 @@
             </div>
         </div>
     {/if}
-    <!-- Favorite player (optioonal) -->
-    {#if viewManager.favoritePlayer}
+    <!-- 2025 Draft Money (optioonal) -->
+    {#if viewManager.draftMoneyCurrentYear}
         <div class="infoSlot">
             <div class="infoLabel">
-                Favorite Player
+                2025 Draft Money
             </div>
             <div class="infoIcon playerIcon">
-                <img class="favoritePlayer" src="https://sleepercdn.com/content/nfl/players/{viewManager.favoritePlayer}.jpg" alt="favorite player"/>
+                <img class="favoritePlayer" src=""/>
             </div>
             <div class="infoAnswer">
-                {players[viewManager.favoritePlayer].fn} {players[viewManager.favoritePlayer].ln}
+                {players[viewManager.draftMoneyCurrentYear].fn} {players[viewManager.draftMoneyCurrentYear].ln}
             </div>
         </div>
     {/if}
+	<!-- 2026 Draft Money (optioonal) -->
+	    {#if viewManager.draftMoneyNextYear}
+	        <div class="infoSlot">
+	            <div class="infoLabel">
+	                2026 Draft Money
+	            </div>
+	            <div class="infoIcon playerIcon">
+	                <img class="favoritePlayer" src=""/>
+	            </div>
+	            <div class="infoAnswer">
+	                {players[viewManager.draftMoneyNextYear].fn} {players[viewManager.draftMoneyNextYear].ln}
+	            </div>
+	        </div>
+	    {/if}
     <!-- Rebuild Mod (optional) -->
     {#if viewManager.mode}
         <div class="infoSlot">
