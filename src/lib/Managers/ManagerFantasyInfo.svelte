@@ -213,17 +213,17 @@
             </div>
         </div>
     {/if}
-     {#if viewManager.draftMoneyCurentYear}
+     {#if viewManager.draftMoneyCurrentYear}
         <!-- 2025 Draft Money -->
         <div class="infoSlot">
             <div class="infoLabel">
                 2025 Draft Money
             </div>
             <div class="infoIcon">
-                <span class="draftMoneyCurentYear">{viewManager.draftMoneyCurentYear}</span>
+                <img class="draftMoneyCurrentYear" src="/static/dollar-symbol.png />
             </div>
             <div class="infoAnswer">
-                {viewManager.draftMoneyCurentYear}
+                {viewManager.draftMoneyCurrentYear}
             </div>
         </div>
     {/if}
@@ -234,7 +234,7 @@
                 2026 Draft Money
             </div>
             <div class="infoIcon">
-                <span class="draftMoneyNextYear">{viewManager.draftMoneyNextYear}</span>
+               <img class="draftMoneyNextYear" src="/static/dollar-symbol.png />
             </div>
             <div class="infoAnswer">
                 {viewManager.draftMoneyNextYear}
