@@ -35,7 +35,7 @@ export const managers = [
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Jeff", // Can be anything (usually your rival's name)
-        link: 2, // manager array number within this array, or null to link back to all managers page
+        link: 1, // manager array number within this array, or null to link back to all managers page
         image: "/managers/JeffCohn.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "draftMoneyCurrentYear": "$200", // This is the amount of money the team has available to draft with in the current draft year
@@ -58,7 +58,7 @@ export const managers = [
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Dave", // Can be anything (usually your rival's name)
-        link: 1, // manager array number within this array, or null to link back to all managers page
+        link: 0, // manager array number within this array, or null to link back to all managers page
         image: "/managers/DaveO.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "draftMoneyCurrentYear": "$200", // This is the amount of money the team has available to draft with in the current draft year
@@ -81,7 +81,7 @@ export const managers = [
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Jeff", // Can be anything (usually your rival's name)
-        link: 2, // manager array number within this array, or null to link back to all managers page
+        link: 1, // manager array number within this array, or null to link back to all managers page
         image: "/managers/JeffCohn.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "draftMoneyCurrentYear": "$200", // This is the amount of money the team has available to draft with in the current draft year
