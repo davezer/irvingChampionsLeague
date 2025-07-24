@@ -232,7 +232,7 @@
                 2026 Draft Money
             </div>
             <div class="infoIcon">
-               <img class="draftMoneyNextYear" src="/static/dollar-sign.png" />
+               <img class="draftMoneyNextYear" src="/dollar-sign.png" />
             </div>
             <div class="infoAnswer">
                 {viewManager.draftMoneyNextYear}
