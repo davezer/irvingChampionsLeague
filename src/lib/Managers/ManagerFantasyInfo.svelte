@@ -33,13 +33,7 @@
 		transition: box-shadow 0.4s;
     }
 
-    .draftMoneyNextYear {
-        align-items:flex-end;
-    }
-
-     .draftMoneyCurrentYear {
-        align-items:flex-end;
-    }
+  
 
     .infoLabel {
         font-size: 0.7em;
@@ -148,11 +142,13 @@
 
     .draftMoneyCurrentYear  {
         height: 65px;
+  		align-items:flex-end;
         vertical-align: bottom;
     }
 
     .draftMoneyNextYear  {
         height: 65px;
+		align-items:flex-end;
         vertical-align: bottom;
     }
 
@@ -217,34 +213,34 @@
             </div>
         </div>
     {/if}
-    <!-- 2025 Draft Money (optioonal) -->
-    {#if viewManager.draftMoneyCurrentYear}
+     {#if viewManager.draftMoneyCurentYear}
+        <!-- 2025 Draft Money -->
         <div class="infoSlot">
             <div class="infoLabel">
                 2025 Draft Money
             </div>
             <div class="infoIcon">
-                <img class="draftMoneyCurrentYear" src=""/>
+                <span class="draftMoneyCurentYear">{viewManager.draftMoneyCurentYear}</span>
             </div>
             <div class="infoAnswer">
-                {players[viewManager.draftMoneyCurrentYear].fn} {players[viewManager.draftMoneyCurrentYear].ln}
+                {viewManager.draftMoneyCurentYear}
             </div>
         </div>
     {/if}
-	<!-- 2026 Draft Money (optioonal) -->
-	    {#if viewManager.draftMoneyNextYear}
-	        <div class="infoSlot">
-	            <div class="infoLabel">
-	                2026 Draft Money
-	            </div>
-	            <div class="infoIcon">
-	                <img class="draftMoneyNextYear" src=""/>
-	            </div>
-	            <div class="infoAnswer">
-	                {players[viewManager.draftMoneyNextYear].fn} {players[viewManager.draftMoneyNextYear].ln}
-	            </div>
-	        </div>
-	    {/if}
+	{#if viewManager.draftMoneyNextYear}
+        <!-- 2026 Draft Money -->
+        <div class="infoSlot">
+            <div class="infoLabel">
+                2026 Draft Money
+            </div>
+            <div class="infoIcon">
+                <span class="draftMoneyNextYear">{viewManager.draftMoneyNextYear}</span>
+            </div>
+            <div class="infoAnswer">
+                {viewManager.draftMoneyNextYear}
+            </div>
+        </div>
+    {/if}
     <!-- Rebuild Mod (optional) -->
     {#if viewManager.mode}
         <div class="infoSlot">
