@@ -142,7 +142,12 @@
         background-color: #98c097;
     }
 
-    .favoritePlayer {
+    .draftMoneyCurrentYear  {
+        height: 65px;
+        vertical-align: bottom;
+    }
+
+    .draftMoneyNextYear  {
         height: 65px;
         vertical-align: bottom;
     }
