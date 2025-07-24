@@ -33,7 +33,11 @@
 		transition: box-shadow 0.4s;
     }
 
-    .playerIcon {
+    .draftMoneyNextYear {
+        align-items:flex-end;
+    }
+
+     .draftMoneyCurrentYear {
         align-items:flex-end;
     }
 
@@ -219,8 +223,8 @@
             <div class="infoLabel">
                 2025 Draft Money
             </div>
-            <div class="infoIcon playerIcon">
-                <img class="favoritePlayer" src=""/>
+            <div class="infoIcon">
+                <img class="draftMoneyCurrentYear" src=""/>
             </div>
             <div class="infoAnswer">
                 {players[viewManager.draftMoneyCurrentYear].fn} {players[viewManager.draftMoneyCurrentYear].ln}
@@ -233,8 +237,8 @@
 	            <div class="infoLabel">
 	                2026 Draft Money
 	            </div>
-	            <div class="infoIcon playerIcon">
-	                <img class="favoritePlayer" src=""/>
+	            <div class="infoIcon">
+	                <img class="draftMoneyNextYear" src=""/>
 	            </div>
 	            <div class="infoAnswer">
 	                {players[viewManager.draftMoneyNextYear].fn} {players[viewManager.draftMoneyNextYear].ln}
