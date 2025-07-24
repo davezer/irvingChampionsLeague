@@ -218,7 +218,7 @@
                 2025 Draft Money
             </div>
             <div class="infoIcon">
-                <img class="draftMoneyCurrentYear" src="{viewManager.draftMoneyCurrentYear}.png" />
+                <img class="draftMoneyCurrentYear" src="/dollar-sign.png" />
             </div>
             <div class="infoAnswer">
                 {viewManager.draftMoneyCurrentYear}
@@ -232,7 +232,7 @@
                 2026 Draft Money
             </div>
             <div class="infoIcon">
-               <img class="draftMoneyNextYear" src="{viewManager.draftMoneyNextYear}.png" />
+               <img class="draftMoneyNextYear" src="/static/dollar-sign.png" />
             </div>
             <div class="infoAnswer">
                 {viewManager.draftMoneyNextYear}
