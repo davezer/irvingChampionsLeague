@@ -142,14 +142,12 @@
 
     .draftMoneyCurrentYear  {
         height: 65px;
-  		align-items:flex-end;
-        vertical-align: bottom;
+        vertical-align: middle;
     }
 
     .draftMoneyNextYear  {
         height: 65px;
-		align-items:flex-end;
-        vertical-align: bottom;
+        vertical-align: middle;
     }
 
     /* media queries */
@@ -220,7 +218,7 @@
                 2025 Draft Money
             </div>
             <div class="infoIcon">
-                <img class="draftMoneyCurrentYear" src="/static/dollar-symbol.png" />
+                <img class="draftMoneyCurrentYear" src="/static/dollar-sign.png" />
             </div>
             <div class="infoAnswer">
                 {viewManager.draftMoneyCurrentYear}
@@ -234,7 +232,7 @@
                 2026 Draft Money
             </div>
             <div class="infoIcon">
-               <img class="draftMoneyNextYear" src="/static/dollar-symbol.png" />
+               <img class="draftMoneyNextYear" src="/static/dollar-sign.png.png" />
             </div>
             <div class="infoAnswer">
                 {viewManager.draftMoneyNextYear}
