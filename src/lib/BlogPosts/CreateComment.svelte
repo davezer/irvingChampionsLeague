@@ -53,7 +53,7 @@
         <Textfield class="shaped-outlined" variant="outlined"bind:value={author} label="Your Sleeper Username" />
         <Button onclick={() => submit()} variant="unelevated">
             <Label>Submit Comment</Label>
-	console.log(e)
+	console.log("button was clicked")
         </Button>
         <Button onclick={() => toggleShow()} color="secondary" variant="unelevated">
             <Label>Cancel</Label>
